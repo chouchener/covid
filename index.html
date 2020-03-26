@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<title>Bénévolat-Tunisie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+h1{
+  color: red;
+}
+a:hover{
+  color: red;
+}
+i:hover{
+  color: red;
+}
+td{
+  padding: 5px;
+}
+#scroller {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+
+#scroller:hover {
+  background-color: grey;
+  opacity: 1;
+}
+</style>
+<body>
+
+<!-- Main Links Above-->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block" style="color: red;">Page d'accueil</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#inscri" class="w3-button w3-block" style="color: red;">Collaboration</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#update" class="w3-button w3-block" style="color: red;">Updates</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block" style="color: red;">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>CrossPlatform</b></h1>
+    <p>Cette plateforme est un point de convergence d'expertise, de projets et de financement nécessaires afin de joindre les compétences tunisiennes aux ressources multidisciplinaires et faire face à la pandémie covid-19. </p> <p><b>Une palteforme à but non lucratif</b></p>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="images/img2.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <p class="w3-white w3-padding-large w3-animate-bottom">taswira hadi is a draft; we can make an infographic about how we use the site wala motivational picture to collaborate...u can suggest 7ajet okhra zada, Sinon c faultatif najmou na7iwha el panel if u think it cofuses the user :)</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="images/img1.png" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="images/img3.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">#Stay-Home</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Comment pourrai-je Participer?</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3 style="color: black;"> <a href="#inscri" style="text-decoration: none;"> Inscription</a></h3>
+      <p>Si vous êtes un porteur de projet....</p><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3 style="color: grey;">Get in touch</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3 style="color: lightgrey;">Validation</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+      </p><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3 style="color: white;">Retour (Feedback)</h3>
+      <p>On ne garantit pas le déroulement administratif et/ou législatif des actions de bénévolats véhiculés à travers cette plateforme. Cette dernière facilite uniquement la connexion entre les differents acteurs de notre communauté pouvant ensemble s'armer contre le covid-19 et sauver notre Tunisie. On essay par contre de mettre à jours tous les avancements de projets, actions et/ou suggestions que vous partagez ici.</p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-center w3-padding-64">
+      <span id="inscri" class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Inscription</span>
+  </div>
+  <table frame="border" rules="all" style="width: 100%; ">
+    <tr>
+      <td style="background-color: black;color: white; font-size: 20px;">Vous êtes</td>
+      <td style="background-color: black;color: white;font-size: 20px;">Mission</td>
+      <td style="background-color: black;color: white;font-size: 20px;">Outils</td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>Fabriquant de tissus (coton, molleton, polaire fine)</li>
+          <li>Grossiste en tissus</li>
+        </ul>
+      </td>
+      <td>Fournir le tissu pour les confectionneurs</td>
+      <td><center><i class="fa fa-industry" style="font-size: 20px;"></i><br><a href="">formulaire d'inscription</a></center></td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>Laboratoratoire</li>
+          <li>Médecin</li>
+          <li>Acteur de la santé</li>
+          <li>Membre de l'ARES</li>
+        </ul>
+      </td>
+      <td>Nous aider à remonter les besoins, valider les masques et définir les urgences</td>
+      <td><center><i class="fa fa-brain" style="font-size: 20px;"></i><br><a href="">formulaire d'inscription</a></center></td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>Confectionneur industriel</li>
+          <li>Couturier</li>
+        </ul>
+      </td>
+      <td>Confectionner les masques le plus vite possible avec amour</td>
+      <td><center><i class="fa fa-cut" style="font-size: 20px;"></i><br><a href="">formulaire d'inscription</a></center></td>
+    </tr>
+    <tr>
+      <td> 
+        <ul>
+          <li>Equipé d'un véhicule et pouvez réaliser des petites livraisons</li>
+          <li>Collecte de lacets</li>
+          <li>Capable d'organiser un transport entre les régions</li>
+          <li>Capable de nous trouver des financements</li>
+          <li>En possession de masque et vous aimeriez les mettre à disposition</li>
+          <li>Autre</li>
+        </ul>
+      </td>
+      <td>Nous aider à acheminer le matériel entre les différents acteurs et organiser tout ca</td>
+      <td><center><i class="fa fa-users" style="font-size: 20px;"></i><br><a href="">formulaire d'inscription</a></center></td>
+    </tr>
+
+</table>
+
+ <!-- Avancement -->
+  <div class="w3-center w3-padding-64" id="update">
+      <span id="inscri" class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Mise à Jour</span>
+      <br><p>ce que je suggère ici houwa small icons that redirect to other pages where updates are manged by a human (like a blog) if a project gets to succees than we post it and we can maintain the format of sentences and corpus for any new information to make it easy. anyway le suivi me semble essentiel </p>
+  </div>
+
+   <!-- Projets en cours -->
+  <div class="w3-center w3-padding-64" id="update">
+      <span id="enCours" class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Projets en cours</span>
+      <br><p>Ici najmou suivant la base de donnée eli net7aslou 3liha, afficher les projets en cours, leurs besoins/attentes qui seront mis à jours par un formulaire supplémentaie standard le rubrique hadhi + contact du/des porteur(s) du projet. <br><b>This is a real quick suggestion, really not well elaborated/thought so you can elaborate more</b> </p>
+  </div>
+  <!-- Grid -->
+  <div class="w3-row-padding">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Nous sommes</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="/w3images/team1.jpg" alt="tel et tel" style="width:100%">
+        <div class="w3-container">
+          <h3>tel et tel</h3>
+          <p class="w3-opacity">position</p>
+          <p>mission par rapport à ce projet</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="/w3images/team2.jpg" alt="ceci est facultatif" style="width:100%">
+        <div class="w3-container">
+          <h3>bla bla</h3>
+          <p class="w3-opacity">position</p>
+          <p>mission par rapport à ce projet</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="/w3images/team3.jpg" alt="we can just write a small paragraph ta3 about" style="width:100%">
+        <div class="w3-container">
+          <h3>Jfhgh</h3>
+          <p class="w3-opacity">position</p>
+          <p>mission par rapport à ce projet</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contactez-nous</span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Nom et Prénom</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Envoyer</button>
+  </form>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Votre Collaboration, Sauve des Vies</h4>
+  <div class="w3-xlarge w3-section">
+    <a href="https://web.facebook.com/groups/232058364515156/?multi_permalinks=238967983824194%2C238417697212556%2C237838320603827%2C235249400862719%2C235182874202705&notif_id=1584696048784634&notif_t=group_activity" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p>Bénévolat-Tunisie.2020</p>
+</footer>
+<button onclick="topFunction()" id="scroller" title="Go to top">Top</button>
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+<script>
+  //Get the scrolling button
+var mybutton = document.getElementById("scroller");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  document.getElementById("scroller").style.transitionDuration = "4s";
+  document.getElementById("scroller").style.transitionProperty = "ease";
+}
+</script>
+
+</body>
+</html>
